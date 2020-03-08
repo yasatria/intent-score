@@ -52,7 +52,9 @@
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="handleAddHomeScore"
+        />
 
 
     <TextView
@@ -94,7 +96,9 @@
         android:text="Add Away Score"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:onClick="handleAddAwayScore"
+        />
 
     <Button
         android:id="@+id/btn_result"
@@ -104,7 +108,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="handleCekHasil"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
